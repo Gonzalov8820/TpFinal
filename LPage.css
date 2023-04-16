@@ -1,0 +1,26 @@
+body {
+    overflow-x: hidden;
+    background-color: #222222;
+}
+/* ========== MENU ========== */
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+/* ========== CARRUSEL DE IMAGENES ========== */
+
+.carousel-inner {
+    max-height: 40rem;
+}
+#slider img {
+    max-height: 60rem;
+}
