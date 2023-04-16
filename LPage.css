@@ -24,3 +24,13 @@ body {
 #slider img {
     max-height: 60rem;
 }
+
+/* ========== MEDIA QUERIES SM */
+
+@media (max-width:768px) {
+    #intro #equipo {
+        width: 90% !important;
+    }
+}
+
+
