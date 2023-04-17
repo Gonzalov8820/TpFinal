@@ -25,7 +25,72 @@ body {
 #slider img {
     max-height: 60rem;
 }
+/* ========== QUIENES SOMOS ========== */
 
+.nosotros{
+    color:#fff;
+    margin-top: 40px;
+}
+
+.sobre-nosotros {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sobre-nosotros div{
+    width: 70%;
+}
+
+.sobre-nosotros img {
+    width: 25%;
+    object-fit:cover;
+}
+
+/* ========== SERVICIOS ========== */
+
+.nuestros-servicios{
+    width: 100%;
+    height: 700px;
+    color:#fff;
+}
+
+.tarjeta {
+    /* border:1px solid #fff; */
+    display: flex;
+}
+
+.info-tarjeta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 14px 20px 14px;
+}
+
+.tarjeta-img {
+    width: 50%;
+    height: 500px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-actividades {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.info-tarjeta{
+    background-color: #DC3545;
+}
 /* ========== INTRODUCCION ========== */
 
 #intro {
