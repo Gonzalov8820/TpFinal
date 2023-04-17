@@ -2,12 +2,13 @@ body {
     overflow-x: hidden;
     background-color: #222222;
 }
+
 /* ========== MENU ========== */
 
 #menu a {
     font-size: 18px;
     font-weight: bold;
-    color: #3f3f3f;
+    color: #d20606;
 }
 
 #menu button {
@@ -24,7 +25,6 @@ body {
 #slider img {
     max-height: 60rem;
 }
-
 /* ========== QUIENES SOMOS ========== */
 
 .nosotros{
@@ -90,4 +90,79 @@ body {
 
 .info-tarjeta{
     background-color: #DC3545;
+}
+/* ========== INTRODUCCION ========== */
+
+#intro {
+    height: 700px;
+    margin-bottom: 200px;
+}
+
+/* ========== BG / FORMULARIO ========== */
+
+#form-contacto {
+    background-color: #7c0a0a;
+    min-height: 500px;
+    position: relative;
+}
+#bg-contacto {
+
+    position: relative;
+    top: -250px;    
+
+}
+.btn-envio { 
+    padding: 10px 25px;
+}
+
+/* ========== MEDIA QUERIES XLG ========== */
+
+@media (max-width:1150px) {
+#bg-contacto {
+    top: -150px; 
+    }
+}
+@media (max-width:1400px) {
+    #intro #equipo {
+        width: 100% !important;
+    }
+}
+/* ========== MEDIA QUERIES SM ========== */
+
+@media (max-width:768px) {
+    #intro #equipo {
+        width: 90% !important;
+    }
+    #bg-contacto {
+        top: -130px;    
+    }
+}
+
+/* ========== MEDIA QUERIES XSM ========== */
+
+@media (max-width:590px) {
+    #intro #equipo {
+        width: auto !important;
+    }
+    #bg-contacto {
+        top: -110px; 
+        }
+    }
+
+@media (max-width:500px) {
+#bg-contacto {
+    top: -60px; 
+    }
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+    background: #7c0a0a;
+    min-height: 100px;
+}
+#iconos {
+    font-size: 30px;
+    padding: 0 50px;
+    color: white;
 }
