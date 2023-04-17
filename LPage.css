@@ -57,6 +57,11 @@ body {
     top: -150px; 
     }
 }
+@media (max-width:1400px) {
+    #intro #equipo {
+        width: 100% !important;
+    }
+}
 /* ========== MEDIA QUERIES SM ========== */
 
 @media (max-width:768px) {
@@ -83,4 +88,16 @@ body {
 #bg-contacto {
     top: -60px; 
     }
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+    background: #7c0a0a;
+    min-height: 100px;
+}
+#iconos {
+    font-size: 30px;
+    padding: 0 50px;
+    color: white;
 }
